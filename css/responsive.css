@@ -10,8 +10,23 @@
 }
 .hero-unit-content{
 
-margin-top:100px;
+margin-top:75px;
 
+}
+h1.hero{
+	color:#ffffff;
+	font-size:35px;
+		margin-top:0px;		
+
+
+}
+h2.hero{
+		font-size:25px;		
+
+
+}
+#large_btn{
+	padding:15px 80px 15px 80px;
 }
 .learn_more{
 	display:block;
