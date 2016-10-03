@@ -10,11 +10,16 @@ html, body, div, span, applet, object, iframe, h4, h5, h6, blockquote, pre, a, a
     vertical-align: baseline;
     background: transparent;
     font-family: arial;
+
 	
 }
 
 
+body{
+	
+	  overflow-x: hidden;
 
+}
 
 /* START OF TAGS */
 
@@ -127,11 +132,10 @@ video {
     height: auto;
 
     transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
  z-index: -100;
   margin-top:-100px;
 
-	overflow:hidden;
+	overflow:hidden !important;
 	}
 .hero-unit-content{
 position:absolute;
