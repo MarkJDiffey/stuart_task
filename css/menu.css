@@ -15,7 +15,6 @@ ul {
 li {
     float: left;
 }
-
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -69,7 +68,9 @@ li.dropdown {
 .dropdown:hover .arrow-up {
     display: block;
 }
-
+#logo{
+	margin-top:-10px;
+}
 
 
 
