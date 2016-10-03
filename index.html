@@ -1,185 +1,176 @@
 <!doctype html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <title>Mark Diffey Test</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="menu.css">
-    <link rel="stylesheet" type="text/css" href="responsive.css">
+<meta charset="utf-8">
+<title>Mark Diffey Test</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap_overwrite.css">
 
 
 </head>
 
 <body>
-
-<!-- DESKTOP MENU -->
-
-    <div class="desktop_menu">
-    
-        <div class="containers">
-
-            <ul>
-                <li>
-                    <a class="active" href="#home"> <img style="vertical-align:middle; " src="img/stuart-logo.png">
-                    </a>
-                </li>
-                <li><a href="#news">SME</a>
-                </li>
-
-                <li><a href="#news">Corporate</a>
-                </li>
-                <li class="dropdown">
-
-                    <a href="#" class="dropbtn">Products <img style="vertical-align:middle; " src="img/dropdown-icon.png"></a>
-                    <div class="arrow-up"></div>
-                    <div class="dropdown-content">
-                        <a href="#">API</a>
-                        <a href="#">Mobile Apps</a>
-                        <a href="#">Dashboard</a>
-                        <hr>
-                        <a href="#">Careers</a>
-                        <a href="#">About</a>
-
-                    </div>
-                </li>
-                <li style="float:right">
-                    <a href="#">Become a courier</a>
-                </li>
-                <li style="float:right">
-                    <a href="#">
-                        <button>Sign in</button>
-                </li>
-                </a>
-            </ul>
-
-        </div>
+<div class="desktop_menu">
+<div class="containers">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      
+      <a class="navbar-brand" href="#"><img src="img/stuart-logo.png"></a>
     </div>
-
-<!-- MOBILE MENU -->
-
-    <div class="mobile_menu">
-
-        <div id="myNav" class="overlay">
-
-            <ul>
-                <li>
-                    <a href="#">
-                        <button id="small_btn">Sign in</button>
-                    </a>
-                </li>
-
-                <li style="float:right">
-                    <a class="active" href="#about">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/close-icon.png">
-                        </a>
-
-                    </a>
-                </li>
-            </ul>
-            <div class="overlay-content">
-                <hr>
-                <a href="#">Home</a>
-                <a href="#">SME</a>
-                <a href="#">Corporate</a>
-                <a href="#">API</a>
-                <a href="#">Mobile Apps</a>
-                <a href="#">Dashboard</a>
-                <hr>
-
-                <a href="#">Become a courier</a>
-                <a href="#">Careers</a>
-                <a href="#">Contact</a>
-            </div>
-        </div>
-        <div class="containers">
-
-            <ul>
-                <li>
-                    <a href="#home">
-                        <img style="vertical-align:middle; " src="img/stuart-logo.png">
-                    </a>
-                </li>
-                <li style="vertical-align:middle; padding-top:10px;"><a href="#news">Home</a>
-                </li>
-                <li style="float:right"><a class="active" href="#about"><span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="img/menu-icon.png"></span>
-</a>
-                </li>
-            </ul>
-        </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">SME</a></li>
+        <li><a href="#">Corporate</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">API</a></li>
+            <li><a href="#">Mobile Apps</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <hr>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Become a Courier</a></li>
+        <li><a href="#"><button>Sign in</button></a></li>
+      </ul>
     </div>
-    
-<!-- HERO CONTENT -->
-
-    <div class="hero-unit-content">
-        <h1 class="hero">Deliver fast, pay less!</h1>
-        <h2 class="hero">On demand delivery for businesses</h2>
-        <button id="large_btn">Get started!</button>
+  </div>
+</nav>
+  </div>
+  
+  
+  
+  
+  
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
-    <div class="video_holder">
-        <video autoplay muted poster="" loop>
-            <source src="video/video.mp4" type="video/mp4"></source>
-        </video>
-    </div>
-    
-<!-- PAGE CONTENT -->
-    
-    <div class="box">
-        <div class="containers">
-            <p class="message">
-                <img style="vertical-align:middle" src="img/phone-icon.png" id="phone">Stuart for IOS and Android. Download the app to request, track and manage your deliveries. <span class="learn_more"><a href="#">Learn more <img style="vertical-align:middle" src="img/more-icon.png"> </a></span>
-            </p>
-        </div>
-        <div class="black">
-            <div class="containers" id="full">
-                <h1 id="hidden_on_mobile">Why businesses love Stuart</h1>
-                <h2 class="secondary">Last mile urban logistics for everyone</h2>
-                <div class="two_column">
-                    <div class="image">
-                        <img src="img/sme-photo.jpg" id="article">
-                        <div class="copy">
-                            <h4>SME</h4>
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet rutrum felis. </h5>
-                            <p id="hidden_on_mobile"><a href="#">Learn more <img style="vertical-align:middle" src="img/more-icon.png"></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+  </li>
+</ul>
+  
+  
+  
+  
+  
+  
+ </div>
 
-                <div class="two_column">
-                    <div class="image">
 
-                        <img src="img/corporate-photo.jpg" id="article" />
-                        <div class="copy">
-                            <h4>Corporate</h4>
-                            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet rutrum felis. </h5>
-                            <p id="hidden_on_mobile"><a href="#">Learn more <img style="vertical-align:middle" src="img/more-icon.png"></a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="black">
+<!-- Static navbar -->
+<div class="mobile_menu">
 
-                        <h2 class="secondary" id="hidden_on_desktop">We cover any possible user case</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id="myNav" class="overlay">
 
-    <div class="footer" id="hidden_on_mobile"></div>
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
+<ul>
+      <li><a href="#"><button id="small_btn">Sign in</button></a></li>
 
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
+  <li style="float:right"><a class="active" href="#about">  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="img/close-icon.png"></a>
+</span>
+</a></li>
+</ul>
+  <div class="overlay-content">
+     <hr>
+     <a href="#">Home</a>
+    <a href="#">SME</a>
+    <a href="#">Corporate</a>
+    <a href="#">API</a>
+    <a href="#">Mobile Apps</a>
+    <a href="#">Dashboard</a>
+   <hr>
+   
+    <a href="#">Become a courier</a>
+     <a href="#">Careers</a>
+    <a href="#">Contact</a>
+  </div>
+</div><div class="containers">
+ 
+<ul>
+  <li><a href="#home">
+ <img style="vertical-align:middle; " src="img/stuart-logo.png"></a>
+</a></li>
+  <li style="vertical-align:middle; padding-top:10px;"><a href="#news">Home</a></li>
+  <li style="float:right"><a class="active" href="#about"><span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="img/menu-icon.png"></span>
+</a></li>
+</ul>
+</div></div></div>
+
+
+	<div class="hero-unit-content">
+<h1 class="hero">Deliver fast, pay less!</h1>
+<h2 class="hero">On demand delivery for businesses</h2>
+<button id="large_btn">Get started!</button>
+	</div>
+<div class="video_holder">
+<video autoplay muted poster=""  loop>
+<source src="video/video.mp4" type="video/mp4">
+</video>
+</div>
+<div class="box">
+<div class="containers">
+<p class="message">
+  <img style="vertical-align:middle" src="img/phone-icon.png" id="phone">Stuart for IOS and Android. Download the app to request, track and manage your deliveries. <span class="learn_more"><a href="#">Learn more <img style="vertical-align:middle" src="img/more-icon.png"> </a></span>
+</p>
+</div>
+<div class="black">
+<div class="containers" id="full">
+<h1 id="hidden_on_mobile">Why businesses love Stuart</h1>
+<h2 class="secondary">Last mile urban logistics for everyone</h2>
+<div class="two_column">
+<div class="image">
+<img src="img/sme-photo.jpg" id="article">
+<div class="copy">
+<h4>SME</h4>
+<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet rutrum felis. </h5>
+<p id="hidden_on_mobile"><a href="#">Learn more <img style="vertical-align:middle" src="img/more-icon.png"></a></p>
+</div></div></div>
+
+<div class="two_column">
+<div class="image">
+
+      <img src="img/corporate-photo.jpg"  id="article"  />
+<div class="copy">
+<h4>Corporate</h4>
+<h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet rutrum felis. </h5>
+<p id="hidden_on_mobile"><a href="#">Learn more <img style="vertical-align:middle" src="img/more-icon.png"></a></p>
+</div></div><div class="black">
+
+<h2 class="secondary" id="hidden_on_desktop">We cover any possible user case</h2>
+</div></div></div></div></div></div>
+
+<div class="footer" id="hidden_on_mobile"></div>
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
 </body>
 
 </html>
 
 </body>
-
 </html>

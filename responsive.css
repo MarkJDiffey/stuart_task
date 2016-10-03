@@ -1,98 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
-#hidden_on_desktop{
-	display:none;
-}
 
+.mobile_menu{
+		display:none;
+	}
+	.desktop_menu{
+		display:block;
+	}
 @media only screen and (max-width: 800px) {
-.containers{
-	width:90%;
-}
-.hero-unit-content{
-
-margin-top:100px;
-
-}
-.learn_more{
-	display:block;
-}
-.black{
-	background-color:black;
-	width:100%;
-	height:auto;
-}
-#hidden_on_mobile{
-	display:none;
-}
-#hidden_on_desktop{
-	display:block;
-}
-.two_column{
-	width:100%;
-	margin:0px;
-	
-}
-#full{
-	width:100%;
-}
-#article{
-
-	position:relative;
-	margin-bottom:-10px;
-		border-radius:0px;
-
-		
-}
-.two_column img{
-	position:relative;
-}
-.copy h3{
-	position:absolute;
-	margin:0px;
-	top: 0px; 
-}
-
-
-h2.secondary{
-		text-align:center;
-				font-weight:100;
-
-	margin:0px;
-	color:#8F96A0;
-	font-size:20px;
-	padding-bottom:50px;
-	padding-top:80px;
-}
-
-
-.copy h4 { 
-   position: absolute; 
-   top: 30%;
-   left: 0; 
-   color:#d2d9dc;
-   text-align:center;
-   width:100%;
-   	margin:0px;
-
-  
-}
-.copy h5 { 
-   position: absolute; 
-   top: 50%; 
-   left: 0; 
-   width: 100%;
-   color:#d2d9dc; 
-      text-align:center;
-
-	margin:0px;
-
-
-}
-
-
-}
-.image { 
-   position: relative; 
-   min-width: 100%; /* for IE 6 */
-   overflow:hidden;
+	.mobile_menu{
+		display:block;
+	}
+	.desktop_menu{
+		display:none;
+	}
 }
