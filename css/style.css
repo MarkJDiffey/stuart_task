@@ -9,9 +9,12 @@ html, body, div, span, applet, object, iframe, h4, h5, h6, blockquote, pre, a, a
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
-	font-family:Arial;
+    font-family: arial;
 	
 }
+
+
+
 
 /* START OF TAGS */
 
@@ -35,7 +38,8 @@ p.message{
 h1{
 		text-align:center;
 	margin-top:100px;
-	color:#0A0B0C;		font-weight:100;
+	color:#0A0B0C;		font-weight:100;    font-family: 'oxygenregular';
+
 
 }
 h1.hero{
