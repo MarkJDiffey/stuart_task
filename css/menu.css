@@ -116,6 +116,10 @@ button{
     background-color: #D2D9DC;
     overflow-x: hidden;
 }
+.overlay ul li a{
+	margin-top:10px;
+}
+
 
 .overlay-content {
     position: relative;
@@ -130,6 +134,7 @@ button{
     font-size: 15px;
     color: #818181;
     display: block;
+	padding:15px;
 }
 
 .overlay a:hover, .overlay a:focus {
