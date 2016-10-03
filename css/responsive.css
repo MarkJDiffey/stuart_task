@@ -10,18 +10,18 @@
 }
 .hero-unit-content{
 
-margin-top:75px;
+	margin-top:75px;
 
 }
 h1.hero{
 	color:#ffffff;
 	font-size:35px;
-		margin-top:0px;		
+	margin-top:0px;		
 
 
 }
 h2.hero{
-		font-size:25px;		
+	font-size:25px;		
 
 
 }
@@ -54,7 +54,7 @@ h2.hero{
 
 	position:relative;
 	margin-bottom:-10px;
-		border-radius:0px;
+	border-radius:0px;
 
 		
 }
@@ -69,9 +69,8 @@ h2.hero{
 
 
 h2.secondary{
-		text-align:center;
-				font-weight:100;
-
+	text-align:center;
+	font-weight:100;
 	margin:0px;
 	color:#8F96A0;
 	font-size:20px;
@@ -83,25 +82,21 @@ h2.secondary{
 .copy h4 { 
    position: absolute; 
    top: 30%;
-   left: 0; 
    color:#d2d9dc;
    text-align:center;
-   width:100%;
-   	margin:0px;
+   width:90%;
+   margin:auto;
 
   
 }
 .copy h5 { 
    position: absolute; 
    top: 50%; 
-   left: 0; 
    width: 100%;
    color:#d2d9dc; 
-      text-align:center;
-
-	margin:0px;
-
-
+   text-align:center;
+   width:90%;
+   margin:auto;
 }
 
 }
